@@ -44,13 +44,7 @@ for (let i = 0; i < teams.length; i++) {
     teams[i].fouls = getRandomInt(30, 200);
 
     let {name, fouls} = teams[i];
-
-    teamsCopy.push(
-        {
-        name,
-        fouls
-        }
-    );
+    teamsCopy.push({name,fouls});
     console.log(`${name} ha subito ${fouls} falli`);
 }
 
